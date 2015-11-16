@@ -1,0 +1,17 @@
+[
+	{
+		question_text : "Maman est",
+		categrory : "Autres",
+		lang : "fr"
+	},
+	{
+		question_text : "Papa est",
+		categrory : "Autres",
+		lang : "fr"
+	},
+	{
+		question_text : "Papi est",
+		categrory : "Autres",
+		lang : "fr"
+	},
+]

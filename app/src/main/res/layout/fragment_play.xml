@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".views.fragments.PlayFragment">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/avloadingIndicatorView"
+        android:visibility="visible"
+        app:indicator="Pacman"
+        app:indicator_color="@color/accent_material_orange"
+        android:layout_gravity="center"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutPlay"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:animateLayoutChanges="true"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:id="@+id/textTitleQuestion"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:layout_marginLeft="@dimen/spacing_normal"
+            android:layout_marginRight="@dimen/spacing_normal"
+            android:background="@drawable/edittext_full"
+            android:id="@+id/editTextAns"
+            android:drawablePadding="10dip"
+            android:textColor="@color/green_900"
+            android:paddingLeft="10dip"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="@dimen/spacing_normal"
+            android:text="@string/Button.Play.Check"
+            android:id="@+id/buttonCheck"
+            android:background="@drawable/button_default_bg"
+            style="@style/DefaultButtonText"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/rlayout"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textPoint"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTry"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rblayout"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal|bottom"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_normal"
+            android:text="@string/Button.See.Answers"
+            android:id="@+id/buttonAns"
+            android:background="@drawable/button_default_bg"
+            style="@style/DefaultButtonText"
+             />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

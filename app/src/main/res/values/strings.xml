@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">GFreud</string>
+    <string name="action_settings">Settings</string>
+    <string name="Main.Play">Play</string>
+    <string name="Main.Rank">Rank</string>
+    <string name="Main.Settings">Settings</string>
+    <string name="Main.Exit">Exit</string>
+
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey_50</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">@color/grey_100</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Categ.People">People</string>
+    <string name="Categ.Culture">Culture</string>
+    <string name="Categ.Sport">Sport</string>
+    <string name="Categ.Names">Names</string>
+    <string name="Categ.Questions">Questions</string>
+    <string name="Dialog.Title.Quit">Quit application</string>
+    <string name="Dialog.Content.Quit">Are you sur?</string>
+    <string name="Dialog.Button.Yes">Yes</string>
+    <string name="Dialog.Button.No">No</string>
+    <string name="Dialog.Exit.Game">Do you want to exit the game?</string>
+    <string name="Dialog.Error.Title">Error</string>
+    <string name="Dialog.Button.Ok">Ok</string>
+    <string name="Button.Play.Check">Check</string>
+    <string name="Splash.Version">v.0.1</string>
+    <string name="Splash.Title">GSugg</string>
+    <string name="Title.Menu">Menu</string>
+    <string name="Title.Categories">Categories</string>
+    <string name="Dialog.Title.Exit">Exit</string>
+    <string name="Dialog.Content.Leave.Game">Do you want to leave the game?</string>
+    <string name="Dialog.Answer.No">Oh no!</string>
+    <string name="Dialog.Correct.Answer">Correct answer!</string>
+    <string name="Button.See.Answers">See answers</string>
+
+</resources>
